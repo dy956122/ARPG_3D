@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638248159796567436
-    m_Hash: 2440004078
+      ticks: 638248248916912542
+    m_Hash: 3067259021
   m_LockFileStatus:
     m_FilePath: D:/MyUnityProject/ARPG_3D/Fantastic_Mainland/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638248159797076073
-    m_Hash: 2609557827
+      ticks: 638248248917261606
+    m_Hash: 117462271
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -183,12 +183,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.film-internal-utilities@0.8.4-preview
+- packageId: com.unity.film-internal-utilities@0.9.0-preview
   testable: 0
   isDirectDependency: 1
-  version: 0.8.4-preview
+  version: 0.9.0-preview
   source: 1
-  resolvedPath: D:\MyUnityProject\ARPG_3D\Fantastic_Mainland\Library\PackageCache\com.unity.film-internal-utilities@0.8.4-preview
+  resolvedPath: D:\MyUnityProject\ARPG_3D\Fantastic_Mainland\Library\PackageCache\com.unity.film-internal-utilities@0.9.0-preview
   assetPath: Packages/com.unity.film-internal-utilities
   name: com.unity.film-internal-utilities
   displayName: Film Internal Utilities
@@ -312,13 +312,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637520033800000000
+  datePublishedTicks: 637540500160000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: git+https://github.com/Unity-Technologies/AnimeSolution.git
-    revision: 2c13f008a2581dff804491fb7df13ca7039e855d
+    revision: 5ca69b686616a59db9b831a41935bf421652cfa6
     path: 
   unityLifecycle:
     version: 
