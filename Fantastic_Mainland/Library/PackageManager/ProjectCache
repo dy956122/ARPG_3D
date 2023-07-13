@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638248248916912542
-    m_Hash: 3067259021
+      ticks: 638248274071689770
+    m_Hash: 4010717866
   m_LockFileStatus:
     m_FilePath: D:/MyUnityProject/ARPG_3D/Fantastic_Mainland/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638248248917261606
-    m_Hash: 117462271
+      ticks: 638248274071966875
+    m_Hash: 2670820247
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -183,12 +183,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.film-internal-utilities@0.9.0-preview
+- packageId: com.unity.film-internal-utilities@0.17.0-preview
   testable: 0
   isDirectDependency: 1
-  version: 0.9.0-preview
+  version: 0.17.0-preview
   source: 1
-  resolvedPath: D:\MyUnityProject\ARPG_3D\Fantastic_Mainland\Library\PackageCache\com.unity.film-internal-utilities@0.9.0-preview
+  resolvedPath: D:\MyUnityProject\ARPG_3D\Fantastic_Mainland\Library\PackageCache\com.unity.film-internal-utilities@0.17.0-preview
   assetPath: Packages/com.unity.film-internal-utilities
   name: com.unity.film-internal-utilities
   displayName: Film Internal Utilities
@@ -292,6 +292,8 @@ m_ResolvedPackages:
   dependencies:
   - name: com.unity.modules.uielements
     version: 1.0.0
+  - name: com.unity.timeline
+    version: 1.2.18
   resolvedDependencies:
   - name: com.unity.modules.uielements
     version: 1.0.0
@@ -300,6 +302,16 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.timeline
+    version: 1.7.5
+  - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
     version: 1.0.0
   keywords: []
   registry:
@@ -312,13 +324,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637540500160000000
-  documentationUrl: 
+  datePublishedTicks: 638072196760000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.film-internal-utilities@0.17/manual/index.html
   hasRepository: 1
   repository:
     type: git
-    url: git+https://github.com/Unity-Technologies/AnimeSolution.git
-    revision: 5ca69b686616a59db9b831a41935bf421652cfa6
+    url: https://github.com/Unity-Technologies/AnimeSolution.git
+    revision: bbcd880b88a29119c8bdfdba940e6af2c1630b58
     path: 
   unityLifecycle:
     version: 
