@@ -3,6 +3,8 @@ using UnityEngine;
 public abstract class CharacterProperty : MonoBehaviour
 {
     [SerializeField] protected int hp, mp, atk, def, speed;
+    protected Rigidbody rigid;
+    protected CapsuleCollider selfCollider;
     protected virtual void Attack() { }
     protected virtual void Walk() { }
 
