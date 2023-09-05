@@ -4,7 +4,6 @@
 // 2013/06/07 N.Kobyasahi
 //
 using UnityEngine;
-using UnityChan;
 using System.Collections;
 
 namespace UnityChan
@@ -26,8 +25,6 @@ namespace UnityChan
 
             transform.position = standardPos.position;
             transform.forward = standardPos.forward;
-            player.Rest += setCameraPositionFrontView;
-            player.NormalType += setCameraPositionNormalView;
         }
 
         void setCameraPositionNormalView()
