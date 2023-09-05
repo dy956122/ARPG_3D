@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 namespace UnityChan
 {
@@ -14,6 +15,7 @@ namespace UnityChan
         public float backwardSpeed = 2.0f;
         public float rotateSpeed = 2.0f;
         public float jumpPower = 3.0f;
+        // public event Action NormalType, Rest;
         float orgColHight;
         CapsuleCollider col;
         Rigidbody rb;
@@ -75,7 +77,10 @@ namespace UnityChan
             }
             else if (currentBaseState.fullPathHash == jumpState)
             {
-                cameraObject.SendMessage("setCameraPositionJumpView");
+                // cameraObject.SendMessage("setCameraPositionJumpView");
+				print(0);
+                // Rest();
+				print(1);
                 if (!anim.IsInTransition(0))
                 {
 
@@ -117,7 +122,7 @@ namespace UnityChan
             }
             else if (currentBaseState.fullPathHash == restState)
             {
-                //cameraObject.SendMessage("setCameraPositionFrontView");		// カメラを正面に切り替える
+                // cameraObject.SendMessage("setCameraPositionFrontView");		// カメラを正面に切り替える
                 if (!anim.IsInTransition(0)) anim.SetBool("Rest", false);
             }
         }
