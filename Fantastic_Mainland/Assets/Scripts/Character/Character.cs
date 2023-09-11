@@ -1,6 +1,5 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody), typeof(CapsuleCollider))]
 public class Character : CharacterProperty
 {
     protected override void Attack()
@@ -26,8 +25,8 @@ public class Character : CharacterProperty
         // atk = 10;
         // def = 16;
         // speed = 23;
-        rigid = GetComponent<Rigidbody>();
-        selfCollider = GetComponent<CapsuleCollider>();
+        // rigid = GetComponent<Rigidbody>();
+        // selfCollider = GetComponent<CapsuleCollider>();
 
     }
 }
